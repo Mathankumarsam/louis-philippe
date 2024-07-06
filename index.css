@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +14,7 @@
     font-family: Sora, sans-serif;
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
@@ -22,8 +22,7 @@ blockquote {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote:before, blockquote:after {
     content: '';
     content: none;
 }
@@ -32,58 +31,52 @@ del {
     text-decoration: line-through;
 }
 
-input,
-textarea,
-select {
+input, textarea, select {
     font-family: Sora, sans-serif;
 }
 
-
 /* Start Of Designing */
-
-
 #spotlight {
     height: 100vh;
     width: 100vw;
-
+    overflow-x: hidden; /* Avoid horizontal scroll */
 }
 
 #spotlight .navbar .loadText {
     height: 3.5vh;
     width: 100vw;
     background-color: rgb(22, 21, 21);
-    color: rgb(196,149,7);
+    color: rgb(196, 149, 7);
     font-size: 14px;
-    
 }
 
 #spotlight .navbar .loadText p {
-    padding: 6.5px;    
+    padding: 6.5px;
 }
 
 #spotlight .navbar .top {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 1000px;
     color: aliceblue;
-    background-color: #252525;  
+    background-color: #252525;
     font-family: "Open Sans", sans-serif;
     height: 6vh;
 }
 
 #spotlight .navbar .top .left {
-    display: flex;    
+    display: flex;
 }
+
 #spotlight .navbar .top .left button {
     color: white;
     align-items: center;
     margin-left: 15px;
     margin-right: 30px;
-
 }
 
-#spotlight .navbar .top .left a {   
+#spotlight .navbar .top .left a {
     color: aliceblue;
     font-size: 8px;
     padding-left: 10px;
@@ -92,36 +85,39 @@ select {
 #spotlight .navbar .top .left a span {
     font-size: 12px;
     padding-left: 0px;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
-#spotlight .navbar .top .right  {
+#spotlight .navbar .top .right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #spotlight .navbar .top .right a {
-    display: flex ;
+    display: flex;
     float: left;
     align-items: center;
     color: white;
     font-size: 15px;
     margin-left: 10px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
 #spotlight .navbar .top .right p {
     margin-right: 12px;
     margin-left: 10px;
 }
+
 #spotlight .navbar .top .right .srch {
     margin: 0px;
     padding: 0px;
-} 
+}
+
 #spotlight .navbar .top .right p:hover {
     color: #CAB13A;
 }
+
 #spotlight .navbar .botom .right img {
     height: 40px;
     width: 45px;
@@ -135,6 +131,7 @@ select {
     gap: 200px;
     align-items: center;
 }
+
 #spotlight .navbar .botom svg {
     display: none;
 }
@@ -143,45 +140,45 @@ select {
     height: 50px;
 }
 
-#spotlight .navbar .botom .center{
-    color:black ;
+#spotlight .navbar .botom .center {
+    color: black;
     display: flex;
-    gap:40px ;
+    gap: 40px;
     align-items: center;
 }
 
-#spotlight .navbar .botom .center ul{
+#spotlight .navbar .botom .center ul {
     display: flex;
     display: contents;
     justify-content: center;
-    gap: 30px;   
+    gap: 30px;
 }
+
 #spotlight .navbar .botom .center ul li a {
     color: black;
     font-size: 13px;
 }
 
-#spotlight .navbar .botom .right{
+#spotlight .navbar .botom .right {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-#spotlight .navbar .botom .right .srch{
+#spotlight .navbar .botom .right .srch {
     display: flex;
     align-items: center;
     margin-right: 40px;
 }
 
-#spotlight .navbar .botom .right .deliv{
+#spotlight .navbar .botom .right .deliv {
     display: flex;
     align-items: center;
     font-size: 11px;
     background-color: #000000;
-    background: linear-gradient(135deg,rgb(87, 84, 84), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgb(87, 84, 84), rgb(0, 0, 0));
     padding: 5px 30px 5px 20px;
     border-radius: 25px;
-    
 }
 
 #spotlight .navbar .botom .right .deliv span {
@@ -189,18 +186,13 @@ select {
     margin: 0px;
     font-size: 10px;
 }
-#spotlight .navbar .botom .right img {
-    height: 40px;
-    width: 45px;
-}
+
 #spotlight .navbar .spot img {
     height: 75vh;
-    width:  100vw;
+    width: 100vw;
 }
 
-
 /* Footer Design */
-
 #footer {
     width: 100vw;
 }
@@ -209,24 +201,24 @@ select {
     height: 24vh;
     display: flex;
     justify-content: space-evenly;
-    background:url(images/lp_usp_banner_2x.jpeg);
+    background: url(images/lp_usp_banner_2x.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
+
 #footer .order .p1 {
     margin: 0px;
     text-align: center;
 }
-#footer .order .p1 img {
 
+#footer .order .p1 img {
 }
-#footer .order .p1  span{
+
+#footer .order .p1 span {
     color: aliceblue;
 }
 
 /* REFER */
-
 #footer .refer {
     display: flex;
     align-items: center;
@@ -235,7 +227,7 @@ select {
     gap: 40px;
     margin-top: 50px;
     height: 10vh;
-    background-color:#252525;
+    background-color: #252525;
 }
 
 #footer .refer p {
@@ -262,7 +254,6 @@ select {
 }
 
 /* Cont Design */
-
 #footer .cont {
     margin-top: 40px;
     height: 5vh;
@@ -272,217 +263,365 @@ select {
     text-align: left;
     border-top: 1px solid rgb(218, 211, 211);
 }
+
 #footer .cont .i1 {
     text-align: center;
     margin-top: 18px;
 }
+
 #footer .cont .i1 .spn {
     font-size: 14px;
 }
 
 /* Footer 1 */
-
 #footer .foot1 {
     margin-top: 40px;
     height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#252525;
+    background-color: #252525;
     color: #fff;
-    
 }
+
 #footer .foot1 .about .hed {
     font-size: 18px;
 }
+
 #footer .foot1 .about .hed span {
-    display: none;   
+    display: none;
 }
 
-#footer .foot1 .about a{
+#footer .foot1 .about a {
     font-size: 14px;
-    color:#e7e7e7;
+    color: #e7e7e7;
 }
 
-#footer .foot1 .social{
+#footer .foot1 .social {
     color: white;
 }
-#footer .foot1 .social .tex p , .camp {
+
+#footer .foot1 .social .tex p, .camp {
     font-size: 12px;
 }
+
 #footer .foot1 .social .tex .srch .bar:hover {
     color: black;
 }
-#footer .foot1 .social .social-icons a {  
+
+#footer .foot1 .social .social-icons a {
     color: white;
     align-items: center;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .space {
     height: 8vh;
     background-color: #252525;
-    border: 1px  solid rgb(107, 101, 101);
+    border: 1px solid rgb(107, 101, 101);
     border-left: none;
     border-right: none;
 }
 
-
 /* FOOTER 2 */
-
 #footer .foot2 {
     height: 5vh;
     background-color: #000000;
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
 }
+
 /* For viewport width up to 1440px */
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
     #spotlight {
         height: 100vh;
     }
-    #spotlight .navbar .loadText  {
+
+    #spotlight .navbar .loadText {
         height: 4vh;
         width: 100vw;
-        font-size: 12px;
     }
+
     #spotlight .navbar .top {
-        height: 6.5vh;
+        display: flex;
         justify-content: center;
-        gap: 450px;
+        align-items: center;
+        gap: 700px;
+        color: aliceblue;
+        background-color: #252525;
+        font-family: "Open Sans", sans-serif;
+        height: 6vh;
     }
-    #spotlight .navbar .top .left  {
-        margin: 0px 15px;
-        font-size: 8px;
+
+    #spotlight .navbar .top .left {
+        display: flex;
     }
 
     #spotlight .navbar .top .left button {
-        font-size: 12px; 
+        color: white;
         align-items: center;
-        margin-right: 15px;
+        margin-left: 10px;
+        margin-right: 20px;
     }
+
     #spotlight .navbar .top .left a {
-        font-size: 10px;
+        color: aliceblue;
+        font-size: 8px;
+        padding-left: 8px;
     }
+
+    #spotlight .navbar .top .left a span {
+        font-size: 11px;
+        padding-left: 0px;
+        text-decoration: underline;
+    }
+
+    #spotlight .navbar .top .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     #spotlight .navbar .top .right a {
-        font-size: 14px;
-        gap: 0px;
+        display: flex;
+        float: left;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
-    #spotlight .navbar .top .right a svg {
-        height: 18px;
-        width: 18px;
+
+    #spotlight .navbar .top .right p {
+        margin-right: 10px;
+        margin-left: 5px;
     }
-    #spotlight .navbar .top .right a hr ,hr  {
-        /* display: none; */
+
+    #spotlight .navbar .top .right .srch {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #spotlight .navbar .top .right p:hover {
+        color: #CAB13A;
+    }
+
+    #spotlight .navbar .botom .right img {
+        height: 35px;
+        width: 40px;
+        margin-right: 10px;
     }
 
     #spotlight .navbar .botom {
-        height: 6vh;
-        font-size: 7.5px;
-        justify-content: center; 
-        gap: 10px; 
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
     }
+
+    #spotlight .navbar .botom svg {
+        display: none;
+    }
+
     #spotlight .navbar .botom img {
-        height: 35px;
-        width: 100px;
+        height: 45px;
     }
+
+    #spotlight .navbar .botom .center {
+        color: black;
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+
     #spotlight .navbar .botom .center ul {
-        gap: 12px;
-        margin-left: 5px;
-        margin-right: 10px;
+        display: flex;
+        display: contents;
+        justify-content: center;
+        gap: 20px;
     }
+
     #spotlight .navbar .botom .center ul li a {
-        font-size: 11px;
+        color: black;
+        font-size: 12px;
     }
+
     #spotlight .navbar .botom .right {
-        gap: 0px;
-        
+        display: flex;
+        align-items: center;
+        gap: 25px;
     }
+
     #spotlight .navbar .botom .right .srch {
-        margin-left: 10px;
-    }
-    #spotlight .navbar .botom .right .srch svg {
-        height: 12px;
-        width: 12px;
-    }
-    #spotlight .navbar .botom .right .srch input  {
-        margin: 0px;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
     }
 
     #spotlight .navbar .botom .right .deliv {
-        background: linear-gradient(135deg,rgb(87, 84, 84), rgb(0, 0, 0));
-        padding: 2px 7px ;
-        border-radius: 12px;
-        margin: 0px;
-    }
-    #spotlight .navbar .botom .right .deliv .te {
-        font-size: 8px;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        background-color: #000000;
+        background: linear-gradient(135deg, rgb(87, 84, 84), rgb(0, 0, 0));
+        padding: 3px 20px 3px 15px;
+        border-radius: 25px;
     }
 
-/* Spot Image Design */
-    
+    #spotlight .navbar .botom .right .deliv span {
+        color: #CAB13A;
+        margin: 0px;
+        font-size: 9px;
+    }
+
     #spotlight .navbar .spot img {
         height: 70vh;
-        
-    }
-/* Footer Order Design */
-    #footer .order {
-        margin-top: 0px;
-        height: 18vh;
-        width: 100vw; 
-    }
-    #footer .order .p1 img {
-        height: 80px;
-    }
-    #footer .order .p1 span {
-        font-size: 12px;
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-/* Footer Order Design */
-
-    #footer .refer { 
-        gap: 20px;
         width: 100vw;
+    }
+
+    /* Footer Design */
+    #footer {
+        width: 100vw;
+    }
+
+    #footer .order {
+        height: 22vh;
+        display: flex;
+        justify-content: space-evenly;
+        background: url(images/lp_usp_banner_2x.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #footer .order .p1 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    #footer .order .p1 img {
+    }
+
+    #footer .order .p1 span {
+        color: aliceblue;
+    }
+
+    /* REFER */
+    #footer .refer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 30px;
+        margin-top: 30px;
+        height: 8vh;
+        background-color: #252525;
     }
 
     #footer .refer p {
-        font-size: 14px; /* Decrease font size */
+        font-family: "Kaisei Tokumin", serif;
+        color: aliceblue;
+        font-size: 18px;
+    }
+
+    #footer .refer .gold {
+        font-family: "Kaisei Tokumin", serif;
+        color: #CAB13A;
+    }
+
+    #footer .refer .whit {
+        color: aliceblue;
+        font-size: 14px;
     }
 
     #footer .refer button {
-        padding: 10px 15px; /* Adjust button padding */
-        font-size: 13px; /* Decrease font size */
-    }
-
-    #footer .cont {
-       height: 8vh;
-       width: 100vw;
-
-    }
-    #footer .cont .i1 span {
-        font-size: 10px;
-        margin-top: 0px;
-    }
-    #footer .foot1 {
-        height: 40vh;
-        width: 100vw;
-    }
-    #footer .foot1 .about {
-        margin-left: 20px;        
-    }
-    #footer .space {
-        width: 100vw;
-    }
-    #footer .foot2 {
-        height: 5vh;
-        width: 100vw;
-    }
-    #footer .foot2 .privcy p ,.rights p {
+        background-color: aliceblue;
+        padding: 10px 12px;
+        border-radius: 2px;
         font-size: 12px;
-    }    
+    }
+
+    /* Cont Design */
+    #footer .cont {
+        margin-top: 30px;
+        height: 4vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        border-top: 1px solid rgb(218, 211, 211);
+    }
+
+    #footer .cont .i1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #footer .cont .i1 .spn {
+        font-size: 14px;
+    }
+
+    /* Footer 1 */
+    #footer .foot1 {
+        margin-top: 30px;
+        height: 22vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #252525;
+        color: #fff;
+    }
+
+    #footer .foot1 .about .hed {
+        font-size: 15px;
+    }
+
+    #footer .foot1 .about .hed span {
+        display: none;
+    }
+
+    #footer .foot1 .about a {
+        font-size: 12px;
+        color: #e7e7e7;
+    }
+
+    #footer .foot1 .social {
+        color: white;
+    }
+
+    #footer .foot1 .social .tex p, .camp {
+        font-size: 10px;
+    }
+
+    #footer .foot1 .social .tex .srch .bar:hover {
+        color: black;
+    }
+
+    #footer .foot1 .social .social-icons a {
+        color: white;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .space {
+        height: 6vh;
+        background-color: #252525;
+        border: 1px solid rgb(107, 101, 101);
+        border-left: none;
+        border-right: none;
+    }
+
+    /* FOOTER 2 */
+    #footer .foot2 {
+        height: 4vh;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
+
 
 /* For viewport width up to 1280px */
 @media screen and  (min-width: 1080px ) and (max-width: 1279px) {
@@ -546,7 +685,6 @@ select {
     }
     #spotlight .navbar .botom .right .srch {
         /* margin-left: 10px; */
-
     }
     #spotlight .navbar .botom .right .srch svg {
         height: 12px;
@@ -693,8 +831,7 @@ select {
 
     }
     #spotlight .navbar .botom .right .srch {
-        /* margin-left: 10px; */
-
+    
     }
     #spotlight .navbar .botom .right .srch svg {
         height: 12px;
@@ -1606,9 +1743,14 @@ select {
         font-size: 10px;
     }
     #footer .cont {
-        height: 8vh;
+        height: 12vh;
+        align-items: center;
+        text-align: center;
     }
-
+    #footer .cont .i1 {
+        width: 300px;
+        line-height: 12px;
+    }
     #footer .cont .i1 .spn{
         font-size: 12px;
     }
@@ -1687,7 +1829,6 @@ select {
        
 }
 
-/* For viewport width up to 360px */
 @media screen and (max-width: 420px) {
     #spotlight {
         height: 45vh;
@@ -1819,7 +1960,9 @@ select {
         font-size: 10px;
     }
     #footer .cont {
-        height: 8vh;
+        height: 12vh;
+        align-items: center;
+        justify-content: center;
     }
 
     #footer .cont .i1 .spn{

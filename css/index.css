@@ -205,7 +205,7 @@ select {
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
-    background:url(images/lp_usp_banner_2x.jpeg);
+    background:url("../images/lp_usp_banner_2x.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     

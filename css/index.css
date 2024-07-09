@@ -1816,7 +1816,7 @@ select {
     /* Footer Order Design */
 
     #footer .refer {
-        gap: 0px;
+        gap: 10px;
         width: 100%;
     }
 

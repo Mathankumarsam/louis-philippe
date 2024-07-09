@@ -469,7 +469,7 @@ select {
         margin-left: 20px;        
     }
     #footer .space {
-        width: 100vw;
+        width: 100%;
     }
     #footer .foot2 {
         height: 5vh;

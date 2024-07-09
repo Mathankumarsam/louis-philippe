@@ -66,7 +66,7 @@ select {
     display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 1000px;
+    gap: 100px;
     color: aliceblue;
     background-color: #252525;  
     font-family: "Open Sans", sans-serif;

@@ -1614,14 +1614,14 @@ select {
         width: 100%;
     }
     #footer .cont .i1 {
-        text-align: center;
-        
+        width: 90px; 
+        line-height: 9px;      
     }
     #footer .cont .i1 .spn{
-        font-size: 12px;
+        font-size: 8px;
         margin: 0px;
         padding: 0px;
-        line-height: 10px;
+        line-height: 2px;
     }
     #footer .foot1 {
         height: 60vh;
@@ -1831,10 +1831,12 @@ select {
     }
     #footer .cont {
         height: 8vh;
+        gap: 6px;
     }
 
     #footer .cont .i1 .spn{
-        font-size: 10px;
+        font-size: 8px;
+        font-weight: 400;
     }
     #footer .foot1 {
         height: 60vh;

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -38,20 +37,15 @@ textarea,
 select {
     font-family: Sora, sans-serif;
 }
-
-
 /* Start Of Designing */
-
-
 #spotlight {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 
 }
-
 #spotlight .navbar .loadText {
     height: 3.5vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(22, 21, 21);
     color: rgb(196,149,7);
     font-size: 14px;
@@ -66,7 +60,7 @@ select {
     display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 800px;
     color: aliceblue;
     background-color: #252525;  
     font-family: "Open Sans", sans-serif;
@@ -131,9 +125,10 @@ select {
 
 #spotlight .navbar .botom {
     height: 6vh;
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
 }
 #spotlight .navbar .botom svg {
@@ -196,18 +191,18 @@ select {
 }
 #spotlight .navbar .spot img {
     height: 75vh;
-    width:  100vw;
+    width:  100%;
 }
 
 
 /* Footer Design */
 
 #footer {
-    width: 100vw;
+    width: 100%;
 }
 
 #footer .order {
-    height: 24vh;
+    height: 30vh;
     display: flex;
     justify-content: space-evenly;
     background:url(images/lp_usp_banner_2x.jpeg);
@@ -266,7 +261,7 @@ select {
 
 #footer .cont {
     margin-top: 40px;
-    height: 5vh;
+    height: 8vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -285,7 +280,7 @@ select {
 
 #footer .foot1 {
     margin-top: 40px;
-    height: 25vh;
+    height: 35vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1609,9 +1604,16 @@ select {
     #footer .cont {
         height: 8vh;
     }
-
+    #footer .cont .i1 {
+        text-align: center;
+        
+    }
     #footer .cont .i1 .spn{
         font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 10px;
+        width: ;
     }
     #footer .foot1 {
         height: 60vh;

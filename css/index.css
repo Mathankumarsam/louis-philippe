@@ -203,6 +203,7 @@ select {
 
 #footer .order {
     height: 30vh;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background:url("../images/lp_usp_banner_2x.jpeg");
@@ -231,6 +232,7 @@ select {
     gap: 40px;
     margin-top: 50px;
     height: 10vh;
+    width: 100%;
     background-color:#252525;
 }
 
@@ -262,6 +264,7 @@ select {
 #footer .cont {
     margin-top: 40px;
     height: 8vh;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -281,6 +284,7 @@ select {
 #footer .foot1 {
     margin-top: 40px;
     height: 35vh;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -317,6 +321,7 @@ select {
 
 .space {
     height: 8vh;
+    width: 100%;
     background-color: #252525;
     border: 1px  solid rgb(107, 101, 101);
     border-left: none;
@@ -328,6 +333,7 @@ select {
 
 #footer .foot2 {
     height: 5vh;
+    width: 100%;
     background-color: #000000;
     display: flex;
     justify-content: space-around;

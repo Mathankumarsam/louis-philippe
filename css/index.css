@@ -1222,13 +1222,11 @@ select {
         flex-direction: column;
         float: left;
     }
-    #footer .foot1 .about {
-        
-    }
     #footer .foot1 .about .hed  {
         font-size: 12px;
         width: 80vw;
         font-weight: 600;
+        margin-top: 10px;
     }
     #footer .foot1 .about .hed .plus {
         display: block;
@@ -1237,6 +1235,8 @@ select {
     }
     .list {
         display: none;
+        list-style: none;
+        font-weight: 200;
     }
     .list.show {
         display: block;
@@ -1420,8 +1420,10 @@ select {
 
     #footer .foot1 .about .hed {
         font-size: 14px;
+        font-weight: 600;
         width: 80vw;
         justify-content: center;
+        margin-top: 10px;
     }
 
     #footer .foot1 .about .hed .plus {
@@ -1432,6 +1434,8 @@ select {
 
     .list {
         display: none;
+        list-style: none;
+        font-weight: 200;
     }
     .list.show {
         display: block;
@@ -1645,6 +1649,8 @@ select {
 
     .list {
         display: none;
+        list-style: none;
+        font-weight: 200;
     }
     .list.show {
         display: block;
@@ -1844,6 +1850,7 @@ select {
     #footer .foot1 .about .hed {
         font-size: 12px;
         width: 80vw;
+        font-weight: 600;
     }
 
     #footer .foot1 .about .hed .plus {
@@ -1854,14 +1861,11 @@ select {
 
     .list {
         display: none;
+        list-style: none;
         margin: 0px;
         padding: 0px;
+        font-weight: 200;
     }
-
-    .list li {
-        padding: 0px;
-    }
-
     .list.show {
         display: block;
         padding: 10px;

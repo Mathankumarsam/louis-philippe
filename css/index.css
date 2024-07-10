@@ -1213,7 +1213,7 @@ select {
         font-size: 13px; 
     }
     #footer .foot1 {
-        height: 40vh;
+        height: 65vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1223,19 +1223,17 @@ select {
         float: left;
     }
     #footer .foot1 .about {
-        /* margin-left: 20px;         */
         
     }
     #footer .foot1 .about .hed  {
         font-size: 12px;
         width: 80vw;
-        /* justify-content: center; */
+        font-weight: 600;
     }
     #footer .foot1 .about .hed .plus {
         display: block;
         float: right;
         font-size: 22px;
-        /* display: none; */
     }
     .list {
         display: none;
@@ -1408,7 +1406,7 @@ select {
         font-size: 10px;
     }
     #footer .foot1 {
-        height: 40vh;
+        height: 80vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1417,6 +1415,7 @@ select {
 
     #footer .foot1 .about {
         margin-left: 20px;
+        overflow: hidden;
     }
 
     #footer .foot1 .about .hed {
@@ -1434,14 +1433,8 @@ select {
     .list {
         display: none;
     }
-
-    .list li {
-        padding: 5px;
-    }
-
     .list.show {
         display: block;
-        padding: 80px;
     }
 
     #footer .foot1 .social {
@@ -1497,7 +1490,7 @@ select {
 
     #spotlight .navbar .botom {
         height: 4vh;
-        gap: 40px;
+        gap: 60px;
     }
 
     #spotlight .navbar .botom svg {
@@ -1516,7 +1509,7 @@ select {
         z-index:0;
         height: 0;
         position: absolute;
-        top: 52px;
+        top: 50px;
         left: 0;
         right: 0;
         width: 32vw;
@@ -1563,6 +1556,12 @@ select {
 
     #spotlight .navbar .botom .center ul li a {
         font-size: 7px;
+    }
+    #spotlight .navbar .botom .right  {
+        gap: 10px;
+    }
+    #spotlight .navbar .botom .right .srch {
+        margin: 0px;
     }
     #spotlight .navbar .botom .right .srch input {
         display: none;
@@ -1625,21 +1624,17 @@ select {
         line-height: 2px;
     }
     #footer .foot1 {
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-
-    #footer .foot1 .about {
-        margin-left: 20px;
-        text-align: left;
-    }
-
     #footer .foot1 .about .hed {
         font-size: 12px;
         width: 80vw;
+        margin-top: 5px;
+        font-weight: 600;
     }
 
     #footer .foot1 .about .hed .plus {
@@ -1651,14 +1646,8 @@ select {
     .list {
         display: none;
     }
-
-    .list li {
-        padding: 5px;
-    }
-
     .list.show {
         display: block;
-        padding: 80px;
     }
 
     #footer .foot1 .social {
@@ -1717,7 +1706,7 @@ select {
 
     #spotlight .navbar .botom {
         height: 4vh;
-        gap: 20px;
+        gap: 40px;
     }
 
     #spotlight .navbar .botom svg {
@@ -1736,7 +1725,7 @@ select {
         z-index:0;
         height: 0;
         position: absolute;
-        top: 52px;
+        top: 46px;
         left: 0;
         right: 0;
         max-width: 40vw;
@@ -1782,6 +1771,9 @@ select {
 
     #spotlight .navbar .botom .center ul li a {
         font-size: 7px;
+    }
+    #spotlight .navbar .botom .right {
+        gap: 15px;
     }
     #spotlight .navbar .botom .right .srch svg {
         align-items: right;
@@ -1840,11 +1832,8 @@ select {
         font-weight: 400;
     }
     #footer .foot1 {
-        height: 60vh;
+        height: 82vh;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     #footer .foot1 .about {
@@ -1865,15 +1854,17 @@ select {
 
     .list {
         display: none;
+        margin: 0px;
+        padding: 0px;
     }
 
     .list li {
-        padding: 5px;
+        padding: 0px;
     }
 
     .list.show {
         display: block;
-        padding: 80px;
+        padding: 10px;
     }
 
     #footer .foot1 .social {

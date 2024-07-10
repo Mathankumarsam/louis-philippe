@@ -1406,7 +1406,7 @@ select {
         font-size: 10px;
     }
     #footer .foot1 {
-        height: 80vh;
+        height: 70vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1628,16 +1628,16 @@ select {
         line-height: 2px;
     }
     #footer .foot1 {
-        height: 80vh;
+        height: 70vh;
         width: 100%;
-        display: flex;
+        display: wrap;
         justify-content: center;
         flex-direction: column;
     }
     #footer .foot1 .about .hed {
         font-size: 12px;
         width: 80vw;
-        margin-top: 5px;
+        margin-top: 10px;
         font-weight: 600;
     }
 
@@ -1837,11 +1837,6 @@ select {
         font-size: 8px;
         font-weight: 400;
     }
-    #footer .foot1 {
-        height: 82vh;
-        width: 100%;
-    }
-
     #footer .foot1 .about {
         margin-left: 20px;
         text-align: left;
@@ -1849,7 +1844,7 @@ select {
 
     #footer .foot1 .about .hed {
         font-size: 12px;
-        width: 80vw;
+        width: 70vw;
         font-weight: 600;
     }
 

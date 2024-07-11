@@ -297,6 +297,14 @@ select {
     color:#e7e7e7;
 }
 
+#footer .foot1 .about .list {
+    list-style: none;
+}
+#footer .foot1 .about .hed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #footer .foot1 .social{
     color: white;
 }
@@ -468,6 +476,14 @@ select {
     #footer .foot1 .about {
         margin-left: 20px;        
     }
+    #footer .foot1 .about .list {
+        list-style: none;
+    }
+    #footer .foot1 .about .hed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
     #footer .space {
         width: 100%;
     }
@@ -542,10 +558,6 @@ select {
     #spotlight .navbar .botom .center ul li a {
         font-size: 9px;
     }
-    #spotlight .navbar .botom .right .srch {
-        /* margin-left: 10px; */
-
-    }
     #spotlight .navbar .botom .right .srch svg {
         height: 12px;
         width: 12px;
@@ -614,6 +626,10 @@ select {
     }
     #footer .foot1 .about {
         margin-left: 20px;        
+    }
+
+    #footer .foot1 .about .list {
+        list-style: none;
     }
     #footer .space {
         width: 100%;
@@ -763,6 +779,9 @@ select {
     }
     #footer .foot1 .about {
         margin-left: 20px;        
+    }
+    #footer .foot1 .about .list {
+        list-style: none;
     }
     #footer .space {
         width: 100%;
@@ -1005,6 +1024,7 @@ select {
         font-size: 8px;
         margin: 0px;
         padding: 0px;
+        list-style: none;
     }
     footer .space {
         width: 100%;
@@ -1227,6 +1247,9 @@ select {
         width: 80vw;
         font-weight: 600;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     #footer .foot1 .about .hed .plus {
         display: block;
@@ -1393,13 +1416,14 @@ select {
     }
 
     #footer .refer p {
-        font-size: 12px;
+        font-size: 10px;
+        width: 250px;
     }
     #footer .refer .whit {
         font-size: 12px;
     }
     #footer .refer button {
-        padding: 5px 10px;
+        padding: 15px 10px;
         font-size: 12px;
     }
     #footer .cont .i1 .spn {
@@ -1414,7 +1438,6 @@ select {
     }
 
     #footer .foot1 .about {
-        margin-left: 20px;
         overflow: hidden;
     }
 
@@ -1422,8 +1445,10 @@ select {
         font-size: 14px;
         font-weight: 600;
         width: 80vw;
-        justify-content: center;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #footer .foot1 .about .hed .plus {
@@ -1601,16 +1626,19 @@ select {
     /* Footer Order Design */
 
     #footer .refer {
-        gap: 0px;
+        gap: 20px;
         width: 100%;
     }
 
     #footer .refer p {
         font-size: 10px;
+        width: 200px;
     }
-
+    #footer .refer p .whit {
+        font-size: 10px;
+    }
     #footer .refer button {
-        padding: 2px 5px;
+        padding: 10px 5px;
         font-size: 10px;
     }
     #footer .cont {
@@ -1639,6 +1667,9 @@ select {
         width: 80vw;
         margin-top: 10px;
         font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #footer .foot1 .about .hed .plus {
@@ -1820,12 +1851,13 @@ select {
 
     #footer .refer p {
         font-size: 9px;
+        width: 150px;
     }
     #footer .refer p .whit {
         font-size: 8px;
     }
     #footer .refer button {
-        padding: 2px 5px;
+        padding: 10px 5px;
         font-size: 10px;
     }
     #footer .cont {
